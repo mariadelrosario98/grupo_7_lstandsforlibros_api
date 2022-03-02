@@ -1,7 +1,13 @@
-const { productsModel } = require("../model/productsModel")
+const fs = require('fs')
+const path = require('path');
+const { products } = require("../../Database/models")
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 
-const getproducts = {
-  async 
+const controller = {
+  async list(req, res){
+    try{
+      let libros = await 
+    }
+  }
 }
